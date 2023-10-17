@@ -7,7 +7,7 @@
   </head>
   <body>
     <section id="navbar">
-      <header class="bg-[#2b6da9] top-0 left-0 w-full flex items-center h-[80px]">
+      <header class="fixed z-10 bg-[#2b6da9] top-0 left-0 w-full flex items-center h-[80px]">
         <div class="container">
           <div class="flex items-center justify-between relative">
             <div class="flex px-4 items-center">
@@ -24,17 +24,17 @@
                   <span class="bg-[#D4a373] h-[2px]">&nbsp;</span>
                 </li>
                 <li>
-                  <a href=""> Majalah Sekolah </a>
+                  <a href="/index.html"> Majalah Sekolah </a>
                 </li>
                 <li>
                   <a href="https://ppdbjatim.net/"> Info PPDB </a>
                 </li>
                 <li><a href=""> Prestasi </a></li>
                 <li>
-                  <a href=""> Fasilitas </a>
+                  <a href="#fasilitas"> Fasilitas </a>
                 </li>
-                <li><a href=""> Bursa Kerja </a></li>
-                <li><a href="">Jurusan</a></li>
+                <li><a href="/bursaKerja.html"> Bursa Kerja </a></li>
+                <li><a href="#jurusan">Jurusan</a></li>
               </ul>
               <ul class="flex gap-4 border-x-2 px-5">
                 <li>
@@ -68,12 +68,9 @@
         </div>
       </header>
     </section>
-    <section id="carousel">
-      <div class="container bg-slate-300 h-screen"></div>
-    </section>
 
     <section id="hero">
-      <div class="h-[600px] w-full bg-cover relative">
+      <div class="h-[600px] w-full bg-cover relative mt-[80px]">
         <img src="/assets/img/hero.jpeg" alt="hero" class="w-full h-full object-cover absolute" />
         <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
         <div class="absolute flex flex-col w-full h-full items-center justify-center text-white">
@@ -262,7 +259,7 @@
       </div>
     </section>
 
-    <section class="fasilitas">
+    <section id="fasilitas">
       <div class="px-16 py-8">
         <div class="">
           <h1 class="text-[36px] py-5">Fasilitas</h1>

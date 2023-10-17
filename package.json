@@ -4,6 +4,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.16",
+    "flowbite": "^1.8.1",
     "postcss": "^8.4.31"
   }
 }
