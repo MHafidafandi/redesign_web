@@ -19,29 +19,37 @@
 
             <div class="flex items-center justify-between px-4 text-[12px] font-bold gap-5">
               <ul class="flex gap-8 text-white">
-                <li class="flex flex-col">
-                  <a href="">Profil Sekolah</a>
-                  <span class="bg-[#D4a373] h-[2px]">&nbsp;</span>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href="/index.html">Profil Sekolah</a>
+                  <!-- <span class="bg-[#D4a373] h-[2px]">&nbsp;</span> -->
                 </li>
-                <li>
-                  <a href="/index.html"> Majalah Sekolah </a>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href="#berita"> Berita Sekolah </a>
                 </li>
-                <li>
-                  <a href="https://ppdbjatim.net/"> Info PPDB </a>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href="https://ppdbjatim.net/" target="_blank"> Info PPDB </a>
                 </li>
-                <li><a href=""> Prestasi </a></li>
-                <li>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href=""> Prestasi </a>
+                </li>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
                   <a href="#fasilitas"> Fasilitas </a>
                 </li>
-                <li><a href="/bursaKerja.html"> Bursa Kerja </a></li>
-                <li><a href="#jurusan">Jurusan</a></li>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href="/bursaKerja.html"> Bursa Kerja </a>
+                </li>
+                <li class="hover:bg-white hover:text-[#2b6da9] px-2 py-2">
+                  <a href="#jurusan">Jurusan</a>
+                </li>
               </ul>
               <ul class="flex gap-4 border-x-2 px-5">
                 <li>
                   <a href=""><img src="/assets/img/facebook.png" alt="facebook" /></a>
                 </li>
                 <li>
-                  <a href=""><img src="/assets/img/youtube.png" alt="facebook" /></a>
+                  <a href="https://www.youtube.com/watch?v=miBwQTFdDXc&feature=youtu.be"
+                    ><img src="/assets/img/youtube.png" alt="facebook"
+                  /></a>
                 </li>
                 <li>
                   <a href=""><img src="/assets/img/twitter.png" alt="facebook" /></a>
@@ -70,23 +78,210 @@
     </section>
 
     <section id="hero">
-      <div class="h-[600px] w-full bg-cover relative mt-[80px]">
-        <img src="/assets/img/hero.jpeg" alt="hero" class="w-full h-full object-cover absolute" />
-        <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
-        <div class="absolute flex flex-col w-full h-full items-center justify-center text-white">
-          <img src="/assets/img/logoNavbar.png" alt="logo" />
-          <h1 class="text-[36px] py-5">SMKN 1 PUNGGING</h1>
-          <p class="px-[10rem] text-center">
-            Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
-            keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan dan
-            penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya menjadi SMK
-            rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat peningkatan kualitas
-            dan kinerja SMK lainnya.
-          </p>
+      <div class="h-[600px] w-full bg-cover relative mt-[80px] mx-auto overflow-hidden">
+        <div class="carousel flex transition-transform ease-in-out duration-500">
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/hero.jpeg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/logoNavbar.png" alt="logo" />
+              <h1 class="text-[36px] py-5">SMKN 1 PUNGGING</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/teknik jaringan komputer.jpg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/TKJ.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Teknik Komputer dan Jaringan</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/broadcasting dan perfilman.png"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/PSPT.png" alt="logo" />
+              <h1 class="text-[36px] py-5">PSPT</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img src="/assets/img/dkv.jpg" alt="hero" class="w-full h-full object-cover absolute" />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/DKV.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Desain Komunikasi Visual</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/teknik mesin.jpg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/MEShin.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Teknik Permesinan</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/teknik ketenaga listrikan.jpeg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/Listrek.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Teknik Instalasi Tenaga Listrik</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/teknik otomotif.jpg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/Otomotip.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Teknik Kendaraan Ringan dan Otompstif</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/teknik pengelasan.jpg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/TEKNIK PENGELASAN.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Teknik Pengelasan</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item flex-none w-full relative h-[600px]">
+            <img
+              src="/assets/img/pemasaran.jpg"
+              alt="hero"
+              class="w-full h-full object-cover absolute"
+            />
+            <div class="w-full h-full bg-black opacity-[58%] absolute"></div>
+            <div
+              class="absolute flex flex-col w-full h-full items-center justify-center text-white"
+            >
+              <img src="/assets/img/Pemasaran.png" alt="logo" />
+              <h1 class="text-[36px] py-5">Digital Marketing</h1>
+              <p class="px-[10rem] text-center">
+                Sebagai SMK Pusat Keunggulan merupakan program pengembangan SMK dengan kompetensi
+                keahlian dalam peningkatan kualitas dan kinerja, yang diperkuat melalui kemitraan
+                dan penyelarasan dengan dunia usaha, dunia industri, dunia kerja, yang akhirnya
+                menjadi SMK rujukan yang dapat berfungsi sebagai sekolah penggerak dan pusat
+                peningkatan kualitas dan kinerja SMK lainnya.
+              </p>
+            </div>
+          </div>
         </div>
+        <button
+          class="prev-btn absolute left-1 top-1/2 transform -translate-y-1/2 bg-white/20 text-white px-4 py-2 rounded-l"
+          onclick="prevSlide()"
+        >
+          Previous
+        </button>
+        <button
+          class="next-btn absolute right-1 top-1/2 transform -translate-y-1/2 bg-white/20 text-white px-4 py-2 rounded-r"
+          onclick="nextSlide()"
+        >
+          Next
+        </button>
       </div>
     </section>
-    <section class="berita">
+
+    <section id="berita">
       <div class="px-16 py-8">
         <div class="">
           <h1 class="text-[36px] py-5">Berita Terkini</h1>
@@ -304,10 +499,18 @@
         <div class="flex flex-col gap-2">
           <h3 class="text-[18px] font-bold">Connection</h3>
           <div class="flex gap-4">
-            <img src="/assets/img/facebook.png" />
-            <img src="/assets/img/twitter.png" />
-            <img src="/assets/img/youtube.png" />
-            <img src="/assets/img/pinterest.png" />
+            <a href="https://www.youtube.com/watch?v=miBwQTFdDXc&feature=youtu.be">
+              <img src="/assets/img/youtube.png" />
+            </a>
+            <a href="">
+              <img src="/assets/img/pinterest.png" />
+            </a>
+            <a href="">
+              <img src="/assets/img/twitter.png" />
+            </a>
+            <a href="">
+              <img src="/assets/img/facebook.png" />
+            </a>
           </div>
         </div>
       </div>
@@ -317,6 +520,7 @@
       </div>
     </section>
   </body>
+  <script src="./assets/js/script.js"></script>
   <script
     type="text/javascript"
     src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js"
